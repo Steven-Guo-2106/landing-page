@@ -1,0 +1,155 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color:white;
+    font-weight: 700;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 36px;
+}
+
+.leftOne,
+.rightOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rightOne {
+    align-items: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    width: 400px;
+}
+
+
+#heroPrimary {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#heroSecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+.links{
+    display: flex;
+    gap: 16px;
+    margin: 24px;
+    color: #E5E7EB;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+.imageOne {
+    max-width: 400px;
+}
+
+.infoHeader {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:48px;
+    justify-content: center;
+}
+
+.captioned {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+.borderImage {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.sectionThree {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    max-width: 1000px;
+    align-self: center;
+}
+.quoteAuthor {
+    align-self: center;
+    margin-left: 750px;
+    font-weight: 900;
+}
+
+
+.sectionFour{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    gap:20px;
+    padding:20px;
+    align-items: center;
+    width: 1000px;
+    align-self: center;
+    margin: 70px;
+}
+
+.leftFour {
+    color: white;
+}
+#borderButton {
+    border: 2px solid white;
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
